@@ -5,19 +5,32 @@ Turbo Bits es una tienda en línea especializada en ofrecer servicios y producto
 
 ## Estructura del Proyecto
 Turbo_Bits/
+
 ├── .git/                        # Directorio de configuración de Git
+
 ├── img/
 │   └── logo_turbobins_pagina_web[1].png    # Logotipo de la empresa
+
 ├── ayuda.html                   # Página de ayuda
+
 ├── Contacto.html                # Página de contacto
+
 ├── index.html                   # Página principal
+
 ├── nosotros.html                # Página sobre nosotros
+
 ├── politicas.html               # Página de políticas
+
 ├── preguntas.html               # Página de preguntas frecuentes
+
 ├── script.js                    # Archivo JavaScript para funcionalidades
+
 ├── Servicios.html               # Página de servicios
+
 ├── style.css                    # Archivo CSS para estilos
+
 ├── Vehiculos.html               # Página de vehículos
+
 └── readme.md                    # Archivo README
 
 ## Uso
