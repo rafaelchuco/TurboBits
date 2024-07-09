@@ -82,7 +82,7 @@ Este proyecto está licenciado bajo la Licencia MIT. Cualquier intento de copia 
 ## Contacto
 Para cualquier consulta o soporte, por favor, visita nuestra página de Contacto o envía un correo electrónico a maxturb1@hotmail.com.
 ## Autores
-[rafae chuco](https://github.com/rafaelchuco)
+[rafael chuco](https://github.com/rafaelchuco)
 [diego ccaihuari](https://github.com/DalexisHub)
 [leonardo olortegui](https://github.com/LeonardoOPadi)
 [julio medrano](https://github.com/Julio537-lab)
