@@ -79,7 +79,7 @@ Para acceder a la página principal de Turbo Bits, abre `index.html` en tu naveg
 
 Ofrecemos soporte técnico continuo a través de nuestra base de conocimientos y múltiples canales de contacto. Estamos comprometidos a mejorar nuestros servicios mediante actualizaciones regulares y la integración de retroalimentación de nuestros usuarios.
 ##  Licencia
-Este proyecto está licenciado bajo la Licencia MIT. Consulta el archivo LICENSE para obtener más detalles.
+Este proyecto está licenciado bajo la Licencia MIT. Cualquier intento de copia sera permitido siempre y cuando avise al los autores.
 
 ## Contacto
 Para cualquier consulta o soporte, por favor, visita nuestra página de Contacto o envía un correo electrónico a maxturb1@hotmail.com.
