@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carrito de Compras - Venta de Autos</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Tienda de Autos</h1>
+        <nav>
+            <ul>
+                <li><a href="#autos">Autos</a></li>
+                <li><a href="#carrito">Carrito</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="autos">
+            <h2>Autos Disponibles</h2>
+            <div class="auto" data-id="1" data-name="Auto 1" data-price="20000">
+                <h3>Auto 1</h3>
+                <p>Precio: $20,000</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+            <div class="auto" data-id="2" data-name="Auto 2" data-price="25000">
+                <h3>Auto 2</h3>
+                <p>Precio: $25,000</p>
+                <button class="add-to-cart">Agregar al Carrito</button>
+            </div>
+            <!-- Añadir más autos según sea necesario -->
+        </section>
+        <section id="carrito">
+            <h2>Carrito de Compras</h2>
+            <ul id="cart-items">
+                <!-- Los items del carrito se añadirán aquí -->
+            </ul>
+            <p>Total: $<span id="cart-total">0</span></p>
+        </section>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
