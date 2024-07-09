@@ -88,4 +88,7 @@ Para cualquier consulta o soporte, por favor, visita nuestra página de Contacto
 [diego ccaihuari](https://github.com/DalexisHub)
 [leonardo olortegui](https://github.com/LeonardoOPadi)
 [julio medrano](https://github.com/Julio537-lab)
+## figma 
+link (https://www.figma.com/design/Xh2ayK2SwIrk9W8W3yp4Q3/Untitled?node-id=0-1&t=HyNPvyXv5DUwpiKJ-1)
+
 
