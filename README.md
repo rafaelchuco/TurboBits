@@ -25,8 +25,6 @@ Turbo_Bits/
 
 ├── script.js                    # Archivo JavaScript para funcionalidades
 
-├── Servicios.html               # Página de servicios
-
 ├── style.css                    # Archivo CSS para estilos
 
 ├── Vehiculos.html               # Página de vehículos
