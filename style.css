@@ -14,7 +14,7 @@ body {
 }
 
 header {
-    background-color: #212529;
+    background-color: #181818;
     color: #fff;
     padding: -100rem 0;
 }
@@ -47,7 +47,7 @@ header {
 .navbar-nav .nav-link {
     color: #ffffff !important;
     margin: 0 15px;
-    font-size: 14px;
+    font-size: 16px;
     font-family: 'Playfair Display', serif;
 }
 
