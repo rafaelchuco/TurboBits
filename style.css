@@ -1,218 +1,342 @@
+
 body {
-    font-family: "Belleza", sans-serif;
-    font-weight: 400;
-    font-style: normal;
-    margin: 0;
-    padding: 0;
-    background-color: #f8f9fa;
-    color: #343a40;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding:0;
+  background-color: #f8f9fa;
+  color: #343a40;
 }
 .belleza-regular {
-    font-family: "Belleza", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 header {
-    background-color: #181818;
-    color: #fff;
-    padding: -100rem 0;
+  background-color: #181818;
+  color: #fff;
+  padding: -100rem 0;
 }
 
 .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 2rem;
 }
 
 .navbar-search input[type="text"] {
-    padding: 0.5rem;
-    border: none;
-    border-radius: 4px;
+  padding: 0.5rem;
+  border: none;
+  border-radius: 4px;
 }
 
 .navbar-search button {
-    background-color: #ffc107;
-    border: none;
-    padding: 0.5rem 1rem;
-    margin-left: 0.5rem;
-    border-radius: 4px;
-    cursor: pointer;
+  background-color: #ffc107;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin-left: 0.5rem;
+  border-radius: 4px;
+  cursor: pointer;
 }
 
 .navbar-search button i {
-    color: #90b7de;
+  color: #5f4dff;
 }
 .navbar-nav .nav-link {
-    color: #ffffff !important;
-    margin: 0 15px;
-    font-size: 16px;
-    font-family: 'Playfair Display', serif;
+  color: #ffffff !important;
+  margin: 0 15px;
+  font-size: 16px;
+  font-family: "Playfair Display",  serif;
 }
 
 .navbar-nav .nav-link:hover {
-    color: #ffcc00 !important;
+  color: #ffcc00 !important;
 }
 
 .navbar-nav .nav-item .fas {
-    font-size: 18px;
+  font-size: 18px;
 }
 
 .navbar-nav .nav-item .nav-link {
-    padding: 0.5rem 1rem;
+  padding: 0.5rem 1rem;
 }
 
 .navbar-nav {
-    list-style: none;
-    display: flex;
-    gap: 1.5rem;
+  list-style: none;
+  display: flex;
+  gap: 1.5rem;
 }
 
 .navbar-nav a {
-    color: #ffc107;
-    text-decoration: none;
-    font-weight: bold;
+  color: #ffc107;
+  text-decoration: none;
+  font-weight: bold;
 }
 
 .container {
-    margin: 2rem auto;
-    font-family: "Belleza", sans-serif;
-    font-weight: 400;
-    font-style: normal;
+  margin: 2rem auto;
+  font-family: "Belleza", sans-serif;
+  font-weight: 400;
+  font-style: normal;
 }
 
 h2 {
-    color: #495057;
-    border-bottom: 2px solid #ffc107;
-    display: inline-block;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1.5rem;
+  color: #495057;
+  border-bottom: 2px solid #ffc107;
+  display: inline-block;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1.5rem;
 }
 
 .card {
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: 5px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    overflow: hidden;
-    margin-bottom: 2.5rem;
-    transition: transform 0.3s;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  margin-bottom: 2.5rem;
+  transition: transform 0.3s;
 }
 
 .card:hover {
-    transform: translateY(-5px);
+  transform: translateY(-5px);
 }
 
 .card img {
-    width: 100%;
-    height: 200px;
-    object-fit: cover;
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
 }
 
 .card h3 {
-    color: #212529;
-    padding: 1rem 0.5rem 0.5rem;
-    margin: 0;
+  color: #212529;
+  padding: 1rem 0.5rem 0.5rem;
+  margin: 0;
 }
 
 .card p {
-    color: #495057;
-    padding: 0 0.5rem 1rem;
-    margin: 0;
+  color: #495057;
+  padding: 0 0.5rem 1rem;
+  margin: 0;
 }
 
 .card .btn-primary {
-    background-color: #ffc107;
-    border: none;
-    padding: 0.5rem 1rem;
-    margin: 1rem;
-    cursor: pointer;
-    color: #212529;
+  background-color: #ffc107;
+  border: none;
+  padding: 0.5rem 1rem;
+  margin: 1rem;
+  cursor: pointer;
+  color: #212529;
 }
 
 .carousel .carousel-inner img {
-    height: 600px;
-    object-fit: cover;
-    border-radius: 20px;
-    overflow: hidden;
+  height: 600px;
+  object-fit: cover;
+  border-radius: 20px;
+  overflow: hidden;
 }
 
 .carousel-control-prev-icon,
 .carousel-control-next-icon {
-    filter: invert(100%);
+  filter: invert(100%);
 }
 
 .cart {
-    background-color: #fff;
-    border: 1px solid #dee2e6;
-    border-radius: 4px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 1rem;
-    margin-top: 2rem;
+  background-color: #fff;
+  border: 1px solid #dee2e6;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 1rem;
+  margin-top: 2rem;
 }
 
 .cart h2 {
-    color: #212529;
-    border-bottom: none;
+  color: #212529;
+  border-bottom: none;
 }
 
 .cart ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 .cart li {
-    display: flex;
-    justify-content: space-between;
-    padding: 0.5rem 0;
-    border-bottom: 1px solid #dee2e6;
+  display: flex;
+  justify-content: space-between;
+  padding: 0.5rem 0;
+  border-bottom: 1px solid #dee2e6;
 }
 
 .cart p#cart-total {
-    font-weight: bold;
-    text-align: right;
-    margin: 1rem 0;
+  font-weight: bold;
+  text-align: right;
+  margin: 1rem 0;
 }
 
 .cart .btn-primary.checkout {
-    background-color: #28a745;
-    border: none;
-    padding: 0.5rem 1rem;
-    cursor: pointer;
+  background-color: #5f4dff;
+  border: none;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
 }
 
 footer {
-    background-color: #212529;
-    color: #6c757d;
-    padding: 2rem 0;
+  background-color: #212529;
+  color: #6c757d;
+  padding: 2rem 0;
 }
 
 footer h5 {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 footer ul {
-    list-style: none;
-    padding: 0;
+  list-style: none;
+  padding: 0;
 }
 
 footer ul li a {
-    color: #6c757d;
-    text-decoration: none;
-    font-family:"Belleza", sans-serif;
+  color: #6c757d;
+  text-decoration: none;
+  font-family: "Belleza", sans-serif;
 }
 
 footer ul li a:hover {
-    color: #ffc107;
+  color: #ffc107;
 }
 
 footer .text-center {
-    margin-top: 2rem;
+  margin-top: 2rem;
 
-    font-size: 0.875rem;
+  font-size: 0.875rem;
 }
 
 .text-body-secondary {
-    color: #f7fbff;
+  color: #f7fbff;
+}
+
+html{
+    box-sizing: border-box;
+    font-size: 11%;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+*,
+*::after,
+*::before{
+    margin: 0; 
+    padding: 0;
+    font-family: inherit;
+    box-sizing: inherit;
+}
+
+.intro {
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background: #000000;
+    transition: 1s;
+}
+
+.intro img {
+    top: 150px;
+    position: absolute;
+}
+
+.intro p{
+    color: gray;
+    font-size: 1.6rem;
+    margin-top: 10px;
+}
+
+.logo {
+    font-size: 2.5rem;
+    color: #ffffff;
+}
+
+.logo-parts {
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity: 0;
+}
+
+.logo-parts.active {
+    bottom: 0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+}
+
+.logo-parts.fade {
+    bottom: 250px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+}
+
+.content{
+    width: 100%;
+    padding: 50px;
+    font-size: 2rem;
+}
+
+
+/* Formulario de contacto */
+
+#contact-form {
+  max-width: 600px;
+  margin: 40px auto;
+  padding: 20px;
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#contact-form h2 {
+  margin-top: 0;
+}
+
+#contact-form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+#contact-form input,
+#contact-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+}
+
+#contact-form input[type="text"],
+#contact-form input[type="email"] {
+  height: 40px;
+}
+
+#contact-form textarea {
+  height: 100px;
+  resize: vertical;
+}
+
+#contact-form button[type="reset"] {
+  background-color: #4caf50;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#contact-form button[type="reset"]:hover {
+  background-color: #3e8e41;
 }
