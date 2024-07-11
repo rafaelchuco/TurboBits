@@ -134,7 +134,7 @@ h2 {
 .carousel .carousel-inner img {
     height: 600px;
     object-fit: cover;
-    border-radius: 20px; 
+    border-radius: 20px;
     overflow: hidden;
 }
 
@@ -200,6 +200,7 @@ footer ul {
 footer ul li a {
     color: #6c757d;
     text-decoration: none;
+    font-family:"Belleza", sans-serif;
 }
 
 footer ul li a:hover {
@@ -208,6 +209,7 @@ footer ul li a:hover {
 
 footer .text-center {
     margin-top: 2rem;
+
     font-size: 0.875rem;
 }
 
